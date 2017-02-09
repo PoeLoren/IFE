@@ -10,8 +10,11 @@
 		<h2>文章一级标题</h2>
 		<h3>文章二级标题</h3>
 		<p>文章作者 文章发表时间</p>
-		<p>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落 换行了<br />这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落</p>
+		<p>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落<strong>这里加粗了</strong>这是一个很长的段落这是一个很长的段落 换行了<br />这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落</p>
 		<h3>图片</h3>
+		<img src="1.gif"><br/>
+		<img src="1.gif">
+		<img src="1.gif">
 		<img src="1.gif">
 	</article>
 
@@ -48,7 +51,27 @@
 			<label>请输入密码：</label><input type="password" value="这是一个文本输入框">
 			<label>请输入重复输入密码：</label><input type="password" value="这是一个文本输入框"><br/>
 		</form>
+		<form>
+			<label>性别:</label>
+				<input type="radio" checked="checked" name = "sex">男
+				<input type="radio" name = "sex">女
+			<label>城市：</label>
+			<select>
+				<option value="北京">北京</option>
+				<option value="上海">上海</option>
+				<option value="西安">西安</option>
+				<option value="苏州">苏州</option>
+			</select>
+			<label>爱好：</label>
+				<input type="checkbox" name = "运动" value="checkbox">运动
+				<input type="checkbox" name = "艺术" value="checkbox">艺术
+				<input type="checkbox" name = "科学" value="checkbox">科学
+			<label>个人描述：</label> 
+			<textarea name="MSG" cols=30 rows=2>
+				这是一个多行输入框，输入你的个人描述
+			</textarea>
+			<input type="submit" value="确认提交">
+		</form>
 		
-		性别<input type="text" placeholder="这是一个文本输入框" multiple><br/>
 	</article>
 </body>
