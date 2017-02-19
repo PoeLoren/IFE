@@ -1,8 +1,63 @@
-.nav
+body
 {
-
+	background-color: #dedede;
+	font-family: 'Microsoft YaHei';
 }
 
-article{
+header
+{
+	margin-left:2em;
+	margin-right:2em;
+}
+nav
+{
+	float: right;
+}
+nav ul
+{
+	list-style-type: circle;
+}
+nav li
+{
+	display: inline;
+}
+
+header h1
+{
+	display: inline;
+}
+article, aside
+{
 	display: block;
+	padding: 1em 2em;
+	margin: 2em 2em;
+	background-color: #FFF;
+	box-shadow: 3px 3px 3px #888
+}
+
+article h3, h4
+{
+	color:#888;
+}
+
+article p
+{
+	text-indent: 2em;
+}
+
+article table
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+article table tr th
+{
+	background-color: #000;
+	color: white;
+}
+
+img
+{
+	padding: 4px;
 }
