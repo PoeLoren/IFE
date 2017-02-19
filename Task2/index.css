@@ -61,3 +61,36 @@ img
 {
 	padding: 4px;
 }
+
+
+/*侧栏*/
+aside h3
+{
+	padding-left: 4px;
+	border-left: 3px solid #888;
+}
+
+aside form .tips
+{
+	float: left;
+	text-align: right;
+	display: inline-block;
+	width:50%;
+}
+
+aside textarea
+{
+	width: 30%;
+	height: 100%;
+}
+
+aside input[type="submit"]
+{
+	width:100%;
+	color: #e8ecef;
+    font-size: 15px;
+    background-color: #3355D0;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+}
