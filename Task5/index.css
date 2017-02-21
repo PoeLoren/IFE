@@ -1,0 +1,118 @@
+body
+{
+	background-color: #dedede;
+	font-family: 'Microsoft YaHei';
+	min-width: 750px;
+}
+
+header,footer
+{
+	background-color: #222;
+	height: 4em;
+	color: white;
+	vertical-align: middle;
+	width: 100%;
+	margin: 0;
+}
+
+nav
+{
+	float: right;
+}
+nav ul
+{
+	list-style-type: circle;
+}
+nav li
+{
+	display: inline;
+}
+
+header h1
+{
+	display: inline;
+}
+
+article, aside
+{
+	margin: 1em 2em 0 2em;
+	padding: 1em 2em;
+	background-color: #FFF;
+	box-shadow: 3px 3px 3px #888;
+}
+
+article
+{
+	margin-right: 420px;
+}
+
+article h3, h4
+{
+	color:#888;
+}
+
+article p
+{
+	text-indent: 2em;
+}
+
+article table
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+article table tr th
+{
+	background-color: #000;
+	color: white;
+}
+
+img
+{
+	padding: 4px;
+}
+
+
+/*侧栏*/
+aside
+{
+	width: 300px;
+	float: right;
+}
+
+aside h3
+{
+	padding-left: 4px;
+	border-left: 3px solid #888;
+}
+
+aside form .tips
+{
+	float: left;
+	text-align: right;
+	display: inline-block;
+	width:40%;
+}
+
+aside textarea
+{
+	width: 30%;
+	height: 100%;
+}
+
+aside input[type="submit"]
+{
+	width:100%;
+	color: #e8ecef;
+    font-size: 15px;
+    background-color: #3355D0;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+}
+
+footer
+{
+	text-align: center;
+}
