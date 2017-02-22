@@ -2,7 +2,8 @@ body
 {
 	background-color: #dedede;
 	font-family: 'Microsoft YaHei';
-	min-width: 750px;
+	min-width: 850px;
+	margin: 0;
 }
 
 header,footer
@@ -12,12 +13,13 @@ header,footer
 	color: white;
 	vertical-align: middle;
 	width: 100%;
-	margin: 0;
 }
 
 nav
 {
 	float: right;
+	line-height: 2em;
+	margin-right: 2em;
 }
 nav ul
 {
@@ -30,7 +32,10 @@ nav li
 
 header h1
 {
-	display: inline;
+	display: inline-block;
+	vertical-align: middle;
+	margin:0 0 0 1em;
+	line-height: 2em;
 }
 
 article, aside
@@ -43,7 +48,7 @@ article, aside
 
 article
 {
-	margin-right: 420px;
+	margin-right: 470px;
 }
 
 article h3, h4
@@ -77,8 +82,9 @@ img
 /*侧栏*/
 aside
 {
-	width: 300px;
+	width: 350px;
 	float: right;
+	line-height: 200%
 }
 
 aside h3
@@ -92,12 +98,12 @@ aside form .tips
 	float: left;
 	text-align: right;
 	display: inline-block;
-	width:40%;
+	width:50%;
 }
 
 aside textarea
 {
-	width: 30%;
+	width: 45%;
 	height: 100%;
 }
 
@@ -114,5 +120,6 @@ aside input[type="submit"]
 
 footer
 {
+	line-height: 4em;
 	text-align: center;
 }
